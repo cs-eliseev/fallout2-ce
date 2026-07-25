@@ -114,6 +114,10 @@ See [`https://sfall-team.github.io/sfall/`](https://sfall-team.github.io/sfall/)
 | BarterPrice | `HOOK_BARTERPRICE` | ✅ | - |
 | ItemDamage | `HOOK_ITEMDAMAGE` | ✅ | - |
 | MoveCost | `HOOK_MOVECOST` | ✅ | - |
+| HexMoveBlocking | `HOOK_HEXMOVEBLOCKING` | 🚫 | Engine counterpart is `_obj_blocking_at` |
+| HexAIBlocking | `HOOK_HEXAIBLOCKING` | 🚫 | Engine counterpart is `_obj_ai_blocking_at` |
+| HexShootBlocking | `HOOK_HEXSHOOTBLOCKING` | 🚫 | Engine counterpart is `_obj_shoot_blocking_at` |
+| HexSightBlocking | `HOOK_HEXSIGHTBLOCKING` | 🚫 | Engine counterpart is `_obj_sight_blocking_at` |
 | AmmoCost | `HOOK_AMMOCOST` | ✅ | Requires `check_weapon_ammo_cost=1` if you want pre-attack ammo validation to respect per-shot/per-round overrides. |
 | KeyPress | `HOOK_KEYPRESS` | ✅ | Third hook arg is currently `0`; CE doesn't use VK codes. |
 | MouseClick | `HOOK_MOUSECLICK` | ✅ | - |
